@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def complex_delete(prmDictionary, prmValue):
-    for key, value in sorted(prmDictionary.items()):
+def complex_delete(a_dictionary, value):
+    for key, value in sorted(a_dictionary.items()):
         if value == prmValue:
-            del prmDictionary[key]
-    return prmDictionary
+            del a_dictionary[key]
+    return a_dictionary
